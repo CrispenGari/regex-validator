@@ -7,13 +7,13 @@ This is a package that validate basic strings using regular expressions. This pa
 ### yarn
 
 ```
-yarn add @crispen/regex-validator
+yarn add @crispengari/regex-validator
 ```
 
 ### npm
 
 ```
-npm install @crispen/regex-validator
+npm install @crispengari/regex-validator
 ```
 
 ### TypeScript

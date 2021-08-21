@@ -1,12 +1,15 @@
 {
-  "name": "@crispen/regex-validator",
-  "version": "1.0.0",
+  "name": "@crispengari/regex-validator",
+  "version": "1.0.1",
   "description": "This is a simple npm/yarn package that validate strings",
-  "main": "src index.ts",
+  "main": "lib/index.js",
+  "types": "lib",
   "scripts": {
     "watch": "tsc -w",
     "start": "ts-node src/server.ts",
-    "dev": "nodemon dist/server.js"
+    "dev": "nodemon dist/server.js",
+    "build": "tsc -p .",
+    "publish": "npm publish"
   },
   "repository": {
     "type": "git",
