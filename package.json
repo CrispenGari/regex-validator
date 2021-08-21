@@ -1,0 +1,38 @@
+{
+  "name": "@crispen/regex-validator",
+  "version": "1.0.0",
+  "description": "This is a simple npm/yarn package that validate strings",
+  "main": "src index.ts",
+  "scripts": {
+    "watch": "tsc -w",
+    "start": "ts-node src/server.ts",
+    "dev": "nodemon dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrispenGari/regex-validator.git"
+  },
+  "dependencies": {
+    "@types/node": "^16.7.0",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "keywords": [
+    "typescript",
+    "regex",
+    "regular-expression",
+    "validation",
+    "email",
+    "node",
+    "javascript"
+  ],
+  "author": "CrispenGari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrispenGari/regex-validator/issues"
+  },
+  "homepage": "https://github.com/CrispenGari/regex-validator#readme"
+}
