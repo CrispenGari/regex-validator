@@ -28,7 +28,7 @@ import {
   isValidUsername,
   isValidPhoneNumber,
   isValidPassword,
-} from "@crispen/regex-validator";
+} from "@crispengari/regex-validator";
 
 console.log(isValidEmail("test@gmail.com")); // true
 console.log(isValidUsername("username_9")); // true
