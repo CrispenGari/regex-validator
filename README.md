@@ -82,7 +82,7 @@ We have some 3 basic password `salts` that we can validate which are:
 You can change the password salt easily by passing the following the salt as the second argument to the ``:
 
 ```ts
-import { isValidPassword } from "@crispen/regex-validator";
+import { isValidPassword } from "@crispengari/regex-validator";
 
 console.log(isValidPassword("this_is9t@", passwordSalts.M8L1D1));
 ```
